@@ -3,6 +3,7 @@
 --------------------
 
 `PARTIE 1`
+
     - *component* : composé de 3 fichiers (.html, .css et .ts)
 
     - *AppModule.ts* : module root regroupant les composants du projet
@@ -36,6 +37,7 @@
 
 ----------
 `PARTIE 2`
+
     - *class Router* / *interface Route* : service gérant la navigation parmi les vues et les URL / interface permettant de définir une route
         -> *app.module.ts* 
             *{ path: 'items/:item', component: ItemComponent }*
@@ -49,7 +51,8 @@
     - *Pipes* : permet de transformer des données (string, integer, date...) => {{ data | formatter }}
 
 ----------
-`PARTIE 2`
+`PARTIE 3`
+
     - *DI (dependency Injection* : permet d'injecter à une classe des sources externes plutôt que de les créer dedans. On défini un service comme injectable grace au décorateur *@Injectable*
 
     - *HttpClientModule* : module mettant à disposition des classes permettant de manipuler des requêtes et réponses HTTP
