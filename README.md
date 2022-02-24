@@ -5,7 +5,7 @@
 `PARTIE 1`
     - *component* : composé de 3 fichiers (.html, .css et .ts)
 
-    - *AppModule.ts* : module racine regroupant les composants du projet
+    - *AppModule.ts* : module root regroupant les composants du projet
 
     - <app-root> : composant-mère de tous les autres
 
@@ -48,4 +48,14 @@
     
     - *Pipes* : permet de transformer des données (string, integer, date...) => {{ data | formatter }}
 
-    - 
+----------
+`PARTIE 2`
+    - *DI (dependency Injection* : permet d'injecter à une classe des sources externes plutôt que de les créer dedans. On défini un service comme injectable grace au décorateur *@Injectable*
+
+    - *HttpClientModule* : module mettant à disposition des classes permettant de manipuler des requêtes et réponses HTTP
+
+    - *HttpClient* : dépendance permettant d'envoyer des requêtes à des API externes
+
+    - *stream* : canal de communication entre notre application et l'API externe
+
+    - *| async* : permet d'utiliser directement des promesses ou observables sans stockage intermédiaire
