@@ -4,7 +4,13 @@
 
 `PARTIE 1`
 
-    - *component* : composé de 3 fichiers (.html, .css et .ts)
+    - *component* : représente les différentes briques qui *composent* notre application.
+     Un composant est réutilisable, et s'instencie avec son sélecteur (tag HTML).
+     Il est composé de 3 fichiers 
+        .html -> template
+        .css -> style
+        .ts -> déclaration de la classe TypeScript
+     Les composants peuvent s'échanger des valeurs à l'aide des directives @Input et @Output.
 
     - *AppModule.ts* : module root regroupant les composants du projet
 
@@ -64,7 +70,7 @@
     - *| async* : permet d'utiliser directement des promesses ou observables sans stockage intermédiaire
 
 ----------
-`PARTIE 3`
+`PARTIE 4`
 
     - *ReactiveFormsModule* : module permettant de générer et de contrôler dynamiquement des différents éléments de formulaire 
 
