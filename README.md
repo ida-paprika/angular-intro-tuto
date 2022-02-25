@@ -53,7 +53,7 @@
 ----------
 `PARTIE 3`
 
-    - *DI (dependency Injection* : permet d'injecter à une classe des sources externes plutôt que de les créer dedans. On défini un service comme injectable grace au décorateur *@Injectable*
+    - *DI (dependency Injection* : permet d'injecter dans une classe des sources externes plutôt que de les créer dedans. On défini un service comme injectable grace au décorateur *@Injectable*, et on l'importe puis injecte dans le contrôleur de la classe cible
 
     - *HttpClientModule* : module mettant à disposition des classes permettant de manipuler des requêtes et réponses HTTP
 
@@ -62,3 +62,13 @@
     - *stream* : canal de communication entre notre application et l'API externe
 
     - *| async* : permet d'utiliser directement des promesses ou observables sans stockage intermédiaire
+
+----------
+`PARTIE 3`
+
+    - *ReactiveFormsModule* : module permettant de générer et de contrôler dynamiquement des différents éléments de formulaire 
+
+    - *FormBuilder* : dépendance fournie par *@angular/forms* permettant de simplifier la création d'éléments de formulaire et de diminuer la répétition de code
+
+    - *(ngSubmit)=""* : défini la méthode à appeler lors d'un évènement "submit" sur un formulaire
+
